@@ -49,7 +49,9 @@ def main():
     extensionToDir = {}
     extensionToDir["mp3"] = "Songs"
     extensionToDir["jpg"] = "Images"
-
+    extensionToDir["c"] = "C Files"
+    extensionToDir["cpp"] = "C++ Files"
+    extensionToDir["py"] = "Python Files"
     print("")
     OrganizeDirectory(sourcePath, extensionToDir)
 
