@@ -37,6 +37,8 @@ def OrganizeDirectory(sourcePath, extensionToDir):
 
                 # Move the file
                 shutil.move(file, destinationPath)
+            
+                 
 
 def main():
 
@@ -52,6 +54,14 @@ def main():
     extensionToDir["c"] = "C_Files"
     extensionToDir["cpp"] = "C++_Files"
     extensionToDir["py"] = "Python_Files"
+    extensionToDir["jar"] = "JAR_Files"
+    extensionToDir["png"] = "PNG_Files"
+    extensionToDir["txt"] = "TEXT_Files"
+    extensionToDir["ppt"] = "PPT_Files"
+    extensionToDir["zip"] = "ZIP_Files"
+    extensionToDir["apk"] = "Android_Files"
+    extensionToDir["pdf"] = "PDF_Files"
+    extensionToDir["deb"] = "DEBIAN_Files"
     print("")
     OrganizeDirectory(sourcePath, extensionToDir)
 
