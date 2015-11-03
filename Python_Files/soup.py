@@ -1,5 +1,6 @@
 import urllib
 import bs4
+import os
 url = raw_input('Enter - ')
 html = urllib.urlopen(url).read()
 soup = bs4.BeautifulSoup(html)
