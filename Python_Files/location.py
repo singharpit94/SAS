@@ -1,5 +1,6 @@
 import urllib
 import json
+#adding time commit
 serviceurl = 'http://maps.googleapis.com/maps/api/geocode/json?'
 while True:
     address = raw_input('Enter location: ')
