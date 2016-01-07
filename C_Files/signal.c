@@ -12,21 +12,15 @@
 #include <signal.h>
 
 int s=1;
-
+void f2()
+{
+     printf("World\n");
+     
+}
 void childAlarm(int x)
 {
-	if(s==1)
-               {printf("One\n");
-                  s++;
-               }
-               else if(s==2)
-                {printf("Two\n");
-                    s++;}
-               else if(s==3)
-               {
-                   printf("Three\n");
-                      s=1;
-                 }
+     printf("Hello\n");
+      signal(SIGINT,f2);
 }
 
 
