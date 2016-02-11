@@ -1,4 +1,3 @@
-#code for loading data into database for matches
 import datetime
 c1=raw_input("Enter Country 1\n")
 
