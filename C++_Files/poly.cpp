@@ -281,11 +281,13 @@ int main()
                   // W.read_mouse();
                    W.draw_filled_node(r,2);
                    // W.read_mouse();
-                     W.draw_edge(p,q,2);
+                    W.draw_edge(p,q,2);
                    // W.read_mouse();
                      W.draw_edge(p,r,2);
                     //  W.read_mouse();
                      W.draw_edge(q,r,2);
+                  
+                  
 
                   
 
