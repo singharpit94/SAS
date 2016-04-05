@@ -1,7 +1,13 @@
-public class Base2 extends Base1 {
-	public static int Sub(int var1,int var2)
-	{
-		return var1-var2;
-	}
+/*This is an interface which will be implemented by the Multiple Inheritance Class
+*/
 
+public interface Base2 {
+//Function prototype to subtract two integers
+        public  int sub(int var1,int var2);
+
+
+
+	
+    	
+      
 }

@@ -1,3 +1,8 @@
+/* This is a java class to test Multilevel Inheritance in java
+Written by Arpit Singh(13/CS/31)
+*/
+
+
 import static org.junit.Assert.*;
 
 import org.junit.After;
@@ -26,7 +31,7 @@ public class DerievedTest extends TestCase {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+//Testing multiply function
 	@Test
 	public void testMultiply() {
 		var1=3;
@@ -35,7 +40,7 @@ public class DerievedTest extends TestCase {
 		int get_value=Derieved.multiply(var1, var2);
 		assertEquals(expected_value,get_value);
 	}
-
+//Testing Subtraction Function
 	@Test
 	public void testSub() {
 		var1=8;
@@ -43,7 +48,8 @@ public class DerievedTest extends TestCase {
 		int expected_value=3;
 		int get_value=Derieved.Sub(var1, var2);
 		assertEquals(expected_value,get_value);
-	}
+	} 
+	//Testing Add Function
 
 	@Test
 	public void testAdd() {
@@ -55,4 +61,3 @@ public class DerievedTest extends TestCase {
 	}
 
 }
-
