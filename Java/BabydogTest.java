@@ -1,3 +1,6 @@
+/* This is a class to test Dynamic Dispatch in java
+ Written by Arpit Kumar Singh
+ */
 import static org.junit.Assert.*;
 
 
@@ -18,7 +21,7 @@ public class BabydogTest extends TestCase {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+    //Creating Animal Object and testing food function
 	@Test
 	public void testFood() {
 	    Animal a1=new Animal();
@@ -27,6 +30,7 @@ public class BabydogTest extends TestCase {
 	    assertEquals(test,get);
 	    		
 	}
+	  //Creating Dog Object and testing food function
 	@Test
 	public void testFoodDog() {
 	    Animal a2=new Dog();
@@ -35,6 +39,7 @@ public class BabydogTest extends TestCase {
 	    assertEquals(test,get);
 	    		
 	}
+	  //Creating BabyDog Object and testing food function
 	@Test
 	public void testFoodBabyDog(){
 	    Animal a1=new Babydog();

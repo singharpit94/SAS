@@ -1,3 +1,8 @@
+/* This is a Class for Binary Search in java
+   Written by Arpit Kumar Singh(13/CS/31)
+   */
+
+
 public class BinarySearch {
 	
 	public  static int   bsearch(int [] array,int size,int search){
@@ -32,6 +37,4 @@ public class BinarySearch {
 	}
 
 }
-
-
 
